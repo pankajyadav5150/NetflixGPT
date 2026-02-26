@@ -1,7 +1,8 @@
-
-import React from "react";
 import Header from "./Header.jsx";
+import useNowPlayingMovies from "../hooks/useNowPlayingMovies.js";
 function Browse() {
+   useNowPlayingMovies();
+
     return (
        <div>
         <Header/>
