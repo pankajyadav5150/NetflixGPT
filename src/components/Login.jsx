@@ -14,7 +14,7 @@ export default function Login() {
         password: ""
     });
 
-
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         //validation
@@ -59,7 +59,7 @@ export default function Login() {
             }
         }
 
-        //reset form data        
+        //reset form data
         setFormData({
             name: "",
             email: "",

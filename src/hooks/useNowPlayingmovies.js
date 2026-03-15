@@ -5,11 +5,12 @@ import {toast} from "react-toastify"
 import {useDispatch} from "react-redux"
 import {setNowPlayingMovies} from "../utils/movieSlice.js"
 
+
 export default function useNowPlayingMovies(){
     const dispatch=useDispatch();
     const movieData=async ()=>{
         try{
-            const response=await fetch('https://api.themoviedb.org/3/movie/now_playing?page=1',options);
+            const response=await fetch(url,options);
             const json=await response.json();
             //added into redux store
             dispatch(setNowPlayingMovies(json.results));

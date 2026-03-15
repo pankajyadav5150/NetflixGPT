@@ -30,6 +30,19 @@ If you are developing a production application, we recommend using TypeScript wi
 -created login and sign up api 
 -used firebase 
 -create a user slice got storing user data
+-addUser reduser
+-removeUser reducer
+-signin / signup redirection done
+-craete a account on tmdb for movies api
+-fatched a nowPlaying Movies data
+-store into tha movieslice into redux
+-created a custom hooks for nowPkayingMovies data fathing in seperate file for making browse ui clean and readable
+-created a main movie component for showing main movie with trailer
+-created a movie suggestions component for showing movies list
+-created a movie list component for showing movies list
+-created a movie card component for showing movie card
+-created a movie card component for showing movie card
+
 
 
 
